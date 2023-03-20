@@ -68,7 +68,7 @@ class Main {
                                 }
                             }break;
                             case 3:{
-                                Collections.sort(accountList, Comparator.comparing(Account::getBalance));
+                                Collections.sort(accountList, Comparator.comparing(Account::getBalance).reversed());
                                 for(int i=0;i<accountList.size();i++){
                                     accountList.get(i).output();
                                 }
@@ -89,3 +89,4 @@ class Main {
     }
 
 }
+
