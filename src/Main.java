@@ -7,9 +7,9 @@ class Main {
         do {
             System.out.println("1. Add account");
             System.out.println("2. Remove Account");
-            System.out.println("4. Edit Account");
-            System.out.println("5. Show Account infor");
-            System.out.println("3. Exit");
+            System.out.println("3. Edit Account");
+            System.out.println("4. Show Account infor");
+            System.out.println("5. Exit");
             int op=scanner.nextInt();
             switch (op)
             {
